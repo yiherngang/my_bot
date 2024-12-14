@@ -8,8 +8,8 @@ def generate_launch_description():
     return LaunchDescription([
 
         Node(
-            package='v412_camera',
-            executable='v412_camera_node',
+            package='v4l2_camera',
+            executable='v4l2_camera_node',
             output='screen',
             namespace='camera',
             parameters=[{
