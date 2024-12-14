@@ -6,7 +6,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='ydlidar_ros2_driver-master',
+            package='ydlidar_ros2_driver',
             executable='ydlidar_ros2_driver_node',
             output='screen',
             parameters=[{
