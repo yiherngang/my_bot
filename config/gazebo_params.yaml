@@ -1,12 +1,3 @@
 gazebo:
   ros__parameters:
-    # General Gazebo parameters
-    publish_rate: 400.0  # Frequency of publishing sensor data and states
-
-    # Physics-related parameters
-    real_time_update_rate: 1000  # Update rate of the physics engine
-    max_step_size: 0.001  # Maximum time step in seconds for the physics engine
-
-    # Logging and debugging
-    enable_log: true  # Enable Gazebo logs
-    verbose: true  # Enable verbose output for debugging
+    publish_rate: 400.0 
